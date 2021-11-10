@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <body>
-    <p>Hello</p>
+    <div id="container">
+      <p>Hi</p>
+      <p id="heart" [@moveHeart]="state ? 'alive' : 'dead'" (click)="changeState()">❤️</p>
+    </div>
   </body>
 </html>

@@ -1,0 +1,22 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+}
+
+#container p {
+  font-size: 50px;
+  font-family: OpenSans;
+  margin: 0px;
+  align-self: center;
+}
+
+#container #heart {
+  position: relative;
+
+}
+
+#heart:hover {
+  cursor: pointer;
+}
